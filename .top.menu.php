@@ -1,18 +1,18 @@
-<?php
+<?
 $aMenuLinks = Array(
 	Array(
 		"ГЛАВНАЯ", 
-		"index.php", 
+		"index.php",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"УСЛУГИ", 
-		"services.php", 
+		"services/",
 		Array(), 
 		Array(), 
 		"" 
-	),
+	)
 );
 ?>

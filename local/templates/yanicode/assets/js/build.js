@@ -1123,11 +1123,15 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
 
   window.legancyPopup = function (params) {
+
     params = _typeof(params) === 'object' ? params : {};
     options = Object.assign({}, defaultOptions, params);
+
     var promise,
         content = options.content,
         wrap = createWrap(options.closeButton);
+
+
 
     if (typeof content === 'string') {
       if (content.indexOf('/') >= 0 || options.ajax === true) {
@@ -1529,9 +1533,15 @@ function validationReplay(input) {
 (function () {
   var servicesPopup = function servicesPopup(el) {
     var popup = legancyPopup({
+
       content: document.querySelector('#popup-services'),
       title: false,
-      onAfterAppend: function onAfterAppend(result) {}
+      onAfterAppend:  function onAfterAppend(result) {
+
+      },
+      onAfterOpen: async function (e) {
+
+      }
     });
     popup.open();
   };

@@ -2,110 +2,167 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Yanicode :: Главная");
 ?>
-    <section class="banner banner_before1" style="background-image: url(<?php echo SITE_TEMPLATE_PATH . '/assets/images/banner_blog.jpg'; ?>">
-        <div class="banner-wrapper">
-            <div class="container">
-                <div class="banner__content">
-                    <p>Более 20-ти лет управляю<br />
-                        творческими проектами в<br />
-                        брендинге.</p>
-                    <p><b class="text_gold">
-                            Моя личная миссия: </b>делать<br />
-                        вас богаче, а ваших<br />
-                        клиентов счастливее!</p>
-                </div>
-            </div>
-        </div>
+<section
+    class="banner banner_before54"
+    style="background-image: url(<?= SITE_TEMPLATE_PATH . '/assets/images/banner_blog.jpg' ?>)"
+>
+    <div class="banner-wrapper">
+	<div class="container">
+		<div class="banner__content">
+			<p>
+				 Более 20-ти лет управляю<br>
+				 творческими проектами в<br>
+				 брендинге.
+			</p>
+			<p>
+ <b class="text_gold">
+				Моя личная миссия: </b>делать<br>
+				 вас богаче, а ваших<br>
+				 клиентов счастливее!
+			</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="stages">
+		<div class="stages__item">
+			<div class="stages__step">
+				 01
+			</div>
+			<div class="stages__desc-step">
+				 АУДИТ
+			</div>
+		</div>
+		<div class="stages__item">
+			<div class="stages__step">
+				 02
+			</div>
+			<div class="stages__desc-step">
+				 СТРАТЕГИЯ
+			</div>
+		</div>
+		<div class="stages__item">
+			<div class="stages__step">
+				 03
+			</div>
+			<div class="stages__desc-step">
+				 КОНЦЕПЦИЯ
+			</div>
+		</div>
+		<div class="stages__item">
+			<div class="stages__step">
+				 04
+			</div>
+			<div class="stages__desc-step">
+				 ДИЗАЙН
+			</div>
+		</div>
+		<div class="stages__item">
+			<div class="stages__step">
+				 05
+			</div>
+			<div class="stages__desc-step">
+				 КОММУНИКАЦИИ
+			</div>
+		</div>
+	</div>
+</div>
 
-        <div class="container">
-            <div class="stages">
-                <div class="stages__item">
-                    <div class="stages__step">01</div>
-                    <div class="stages__desc-step">АУДИТ</div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__step">02</div>
-                    <div class="stages__desc-step">СТРАТЕГИЯ</div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__step">03</div>
-                    <div class="stages__desc-step">КОНЦЕПЦИЯ</div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__step">04</div>
-                    <div class="stages__desc-step">ДИЗАЙН</div>
-                </div>
-                <div class="stages__item">
-                    <div class="stages__step">05</div>
-                    <div class="stages__desc-step">КОММУНИКАЦИИ</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+ </section>
     <section class="container">
-        <div class="blog-list">
-            <a href="./blog-details.html" class="blog">
-                <div class="blog__img">
-                    <img width="100%" height="100%" src="<?php echo SITE_TEMPLATE_PATH . '/assets/images/test_blog-img1.jpg'?>" alt="">
-                </div>
-                <div class="blog__desc">
-                    <div class="blog__title">
-                        Что такое продакш-студия и для чего она нужна?
-                    </div>
-                    <div class="blog__date">
-                        07.12.2020
-                    </div>
-                    <div class="blog_article">
-                        Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения. Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения.
-                    </div>
-                </div>
-            </a> <a href="./blog-details.html" class="blog">
-                <div class="blog__img">
-                    <img width="100%" height="100%" src="<?php echo SITE_TEMPLATE_PATH . '/assets/images/test_blog-img2.jpg'?>" alt="">
-                </div>
-                <div class="blog__desc">
-                    <div class="blog__title">
-                        Личный бренд и что такое продакш- студия
-                    </div>
-                    <div class="blog__date">
-                        07.12.2020
-                    </div>
-                    <div class="blog_article">
-                        Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения. Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения.
-                    </div>
-                </div>
-            </a> <a href="./blog-details.html" class="blog">
-                <div class="blog__img">
-                    <img width="100%" height="100%" src="<?php echo SITE_TEMPLATE_PATH . '/assets/images/test_blog-img3.jpg'?>" alt="">
-                </div>
-                <div class="blog__desc">
-                    <div class="blog__title">
-                        Что такое продакш-студия и для чего она нужна?
-                    </div>
-                    <div class="blog__date">
-                        07.12.2020
-                    </div>
-                    <div class="blog_article">
-                        Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения. Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения.
-                    </div>
-                </div>
-            </a> <a href="./blog-details.html" class="blog">
-                <div class="blog__img">
-                    <img width="100%" height="100%" src="<?php echo SITE_TEMPLATE_PATH . '/assets/images/test_blog-img4.jpg'?>" alt="">
-                </div>
-                <div class="blog__desc">
-                    <div class="blog__title">
-                        Личный бренд и что такое продакш- студия
-                    </div>
-                    <div class="blog__date">
-                        07.12.2020
-                    </div>
-                    <div class="blog_article">
-                        Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения. Визуальный брендинг тематического ресторана «Базилик»: разработка логотипа, дизайн-концепт фирменного стиля и проработка его в носителях, таких как вывески, дизайн меню и карты вин, плейсметы, а также авторский надзор на стадии внедрения.
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+        <?$APPLICATION->IncludeComponent(
+	"bitrix:news", 
+	"blog", 
+	array(
+		"ADD_ELEMENT_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BROWSER_TITLE" => "-",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
+		"DETAIL_DISPLAY_TOP_PAGER" => "N",
+		"DETAIL_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"DETAIL_PAGER_SHOW_ALL" => "Y",
+		"DETAIL_PAGER_TEMPLATE" => "blog-detail",
+		"DETAIL_PAGER_TITLE" => "Страница",
+		"DETAIL_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "6",
+		"IBLOCK_TYPE" => "blog",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"LIST_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"MESSAGE_404" => "",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Новости",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"SEF_MODE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"STRICT_SECTION_CHECK" => "N",
+		"USE_CATEGORIES" => "N",
+		"USE_FILTER" => "N",
+		"USE_PERMISSIONS" => "N",
+		"USE_RATING" => "N",
+		"USE_REVIEW" => "N",
+		"USE_RSS" => "N",
+		"USE_SEARCH" => "N",
+		"USE_SHARE" => "N",
+		"COMPONENT_TEMPLATE" => "blog",
+		"SEF_FOLDER" => "",
+		"SEF_URL_TEMPLATES" => array(
+			"news" => "",
+			"section" => "",
+			"detail" => "",
+		)
+	),
+	false
+);?>
+ </section>
+
+
+
+ <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
